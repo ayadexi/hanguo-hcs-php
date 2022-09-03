@@ -1,6 +1,6 @@
 <?php
 /**
-* SEED CBC 暗号话算法
+* SEED CBC 暗号化算法
 * 这是在学生健康情况自家诊断上被用的假象键盘特化的编码。
 * 
 * Original Code: Raon Secure Co., Ltd; KISA;
