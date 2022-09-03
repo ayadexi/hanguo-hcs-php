@@ -18,12 +18,12 @@ class SEED
     private static function uRShift($x, $n)
     {
         if($n == 0)
-			return $x;
-		if($n >= 32)
-			return 0;
-		$v = $x >> $n;
-		$v_mask = ~(0x80000000 >> ($n-1));
-		return $v & $v_mask;
+	    return $x;
+	if($n >= 32)
+	    return 0;
+        $v = $x >> $n;
+	$v_mask = ~(0x80000000 >> ($n-1));
+	return $v & $v_mask;
     }
     private static function getB0($A) {
         return 0x000000ff & $A;
